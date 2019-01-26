@@ -40,7 +40,7 @@ public class Person {
         this.age = age;
     }
 
-    public String getFullname() {
+    public String getFullName() {
         return firstName + " " + lastName; // Firstname, lastname
     }
 }
