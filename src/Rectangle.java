@@ -1,6 +1,6 @@
 /**
  * Class that models rectangles
- * @author eduardobonelli
+ *
  *
  */
 public class Rectangle extends Shape {
