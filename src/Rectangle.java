@@ -1,6 +1,6 @@
 /**
  * Class that models rectangles
- *
+ * @author eduardobonelli
  *
  */
 public class Rectangle extends Shape {
@@ -53,7 +53,18 @@ public class Rectangle extends Shape {
 	public int area() {
 		return width*height;
 	}
+	
+	public String toString() {
+		return "Height: "+ height + ", Width: "+width + super.toString();
+	}
 
+	public Pair<Integer,Integer>getWidthHeight() {
+		return new Pair<Integer,Integer>(width,height);
+	}
+
+	public Pair<Integer,String> getWidthColor() {
+		return new Pair<Integer,String>(width,getColor());
+	}
 	// Class methods
 	public static int getNoOfRectangles() {
 		return noOfRectangles;

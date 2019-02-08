@@ -1,4 +1,4 @@
-public abstract class Shape {
+public abstract class Shape implements Colorable {
 	// Data fields
 	private String color;
 	
@@ -19,5 +19,13 @@ public abstract class Shape {
 	}
 	
 	public abstract int area();
+	
+	public String toString() {
+		return "Color: "+color;
+	}
+	
+	public int volume(int height) {
+		return this.area()*height;
+	}
 	
 }
