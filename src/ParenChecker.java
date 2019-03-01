@@ -1,3 +1,5 @@
+import java.util.EmptyStackException;
+
 public class ParenChecker {
     // Class fields
     private static final String OPEN = "([{<";
@@ -5,20 +7,24 @@ public class ParenChecker {
 
     public static boolean isBalanced(String expression) {
         // Complete!
-        StackSLL<Character> s = new StackSLL<Character>();
+        StackSLL<Character> s = new StackSLL<>();
         int i = 0;
         boolean balanced= true;
-            while(i<expression.length() && balanced) {
-                if(isOpen(expression.charAt(i))) {
+        try {
+            while (i < expression.length() && balanced) {
+                if (isOpen(expression.charAt(i))) {
                     // Opening delimiter
                     s.push(expression.charAt(i));
-                }
-                else {
+                } else {
                     // Closing delimiter
-                    balanced = OPEN.indexOf(s.pop())==CLOSE.indexOf(expression.charAt(i));
-                    }
-
+                    balanced = OPEN.indexOf(s.pop()) == CLOSE.indexOf(expression.charAt(i));
                 }
+                i++;
+            }
+        }
+        catch(EmptyStackException e) {
+            return false;
+        }
             return balanced && s.empty();
         }
 
@@ -32,5 +38,7 @@ public class ParenChecker {
 
     public static void main(String[] args) {
         System.out.println(ParenChecker.isBalanced("()()()()"));
+        System.out.println(ParenChecker.isBalanced("([)]"));
+        System.out.println(ParenChecker.isBalanced(")"));
     }
 }
