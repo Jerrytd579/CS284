@@ -74,7 +74,7 @@ public class PlayingWithShapes {
 		System.out.println(r1.getWidthColor().getSnd());
 
 		MyList<Integer> l = new MyList<Integer>(5);
-		l.set(3,4);
+		//l.set(3,4);
 		System.out.println(l.get(3));
 	}
 }
