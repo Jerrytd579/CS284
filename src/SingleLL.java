@@ -78,6 +78,10 @@ public class SingleLL<E> {
 		return current.data;
 		
 	}
+
+	public int getSize() {
+		return size;
+	}
 	
 	public E removeFirst() {
 		if (head==null) {
@@ -227,15 +231,6 @@ public class SingleLL<E> {
 		return true;
 	}
 
-
-
-
-//	
-//	
-//	public SingleLL<E> drop(int n) {
-//		
-//	}
-//	
 //	public void removeAdjacentDuplicates() {
 //		
 //	}
@@ -249,9 +244,74 @@ public class SingleLL<E> {
 //		
 //	}
 //	
-//	public void reverse() {
-//		
-//	}
+	public void reverse() {
+		SingleLL<E> l = new SingleLL<E>();
+
+		if(head == null || head.next == null) {
+			return;
+		}
+		// List has two or more elements
+		Node<E> oldHead = head;
+		Node<E> previous = head;
+		Node<E> current = head.next;
+		Node<E> temp;
+
+		while(current != null) {
+			temp = current;
+			previous = previous.next;
+			current = current.next;
+
+
+		}
+
+		oldHead.next = null;
+		head = previous;
+
+
+	}
+
+	public SingleLL<Pair<E,E>> mergeLists(SingleLL<E> l) {
+		Node<E> current1 = head;
+		Node<E> current2 = l.head;
+		SingleLL<Pair<E,E>> result = new SingleLL<>();
+
+		while (current1!=null && current2!= null) {
+			result.addLast(new Pair<E,E>(current1.data,current2.data));
+			current1 = current1.next;
+			current2 = current2.next;
+		}
+
+		return result;
+
+	}
+
+	public SingleLL<Pair<E,Integer>> compress() {
+		Node<E> current = head;
+		SingleLL<Pair<E, Integer>> r = new SingleLL<>();
+
+
+		if(head == null) { // Empty List
+			return r;
+		}
+		if(head.next == null) { // Singleton List
+			r.addFirst(new Pair<E,Integer>(head.data, 1));
+			return r;
+		}
+
+		int i = 1;
+		while(current.next != null) {
+			if (current.data.equals(current.next.data)) {
+				i++;
+				current=current.next;
+			} else {
+				r.addLast(new Pair<E, Integer>(current.data, i));
+				i = 1;
+				current = current.next;
+			}
+			r.addLast(new Pair<E,Integer>(current.data, i));
+		}
+		return r;
+	}
 	
 	public String toString() {
 		StringBuilder s = new StringBuilder();

@@ -1,4 +1,5 @@
 import java.util.EmptyStackException;
+import java.util.ArrayList;
 
 public class StackSLL<E> implements StackInterface<E> {
 	// Data fields
@@ -34,7 +35,7 @@ public class StackSLL<E> implements StackInterface<E> {
 	}
 	
 	public int size() {
-		return stack.size();
+		return stack.getSize();
 	}
 	
 	public String toString() {

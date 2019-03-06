@@ -17,7 +17,7 @@ public class ParenChecker {
                     s.push(expression.charAt(i));
                 } else {
                     // Closing delimiter
-                    balanced = OPEN.indexOf(s.pop()) == CLOSE.indexOf(expression.charAt(i));
+                    balanced = !s.empty() && OPEN.indexOf(s.pop()) == CLOSE.indexOf(expression.charAt(i));
                 }
                 i++;
             }
