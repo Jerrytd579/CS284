@@ -37,7 +37,7 @@ public class StackSLL<E> implements StackInterface<E> {
 	public int size() {
 		return stack.getSize();
 	}
-	
+
 	public String toString() {
 		return stack.toString();
 	}

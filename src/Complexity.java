@@ -9,6 +9,12 @@
 
 public class Complexity {
 
+    // O(1)
+    public static void dumbCode(int n) {
+        int x = 0;
+        System.out.println(x);
+    }
+
     // O(n^2)
     public static void method1(int n) {
         int z = 0;
