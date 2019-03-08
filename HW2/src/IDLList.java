@@ -81,19 +81,46 @@ public class IDLList<E> {
     /**
      * Adds elem at the head (i.e. it becomes the first element of the list).
      * @param elem The data to be added
-     * @return true if the data is successfully indexed, false if not
+     * @return true if the data is successfully indexed
      */
     public boolean add(E elem){
-        Node<E> newElem = new Node<E>(elem);
+        Node<E> newNode = new Node<E>(elem);
+
+        if(size == 0) {
+            head = newNode;
+            tail = newNode;
+            size++;
+            indices.add(0, newNode);
+            return true;
+        }
+
+        else {
+            head.prev = newNode;
+            newNode.next = head;
+            head = newNode;
+            size++;
+            indices.add(0, newNode);
+            return true;
+        }
     }
 
     /**
-     *
-     * @param elem
-     * @return
+     * Adds item elem as the new last element of the list (i.e. at the tail).
+     * @param elem Data to be appended
+     * @return true if successful
      */
     public boolean append(E elem){
+        if(size == 0) {
+            return this.add(elem);
+        }
 
+        Node<E> newNode = new Node<E>(elem);
+        Node<E> oldTail = tail;
+        tail = newNode;
+        tail.prev = oldTail;
+        size++;
+        this.indices.add(newNode);
+        return true;
     }
 
     /**
@@ -131,24 +158,28 @@ public class IDLList<E> {
         return this.size;
     }
 
+    /**
+     * Removes and returns the element at the head
+     * @return the elemnt at the head
+     */
     public E remove (){
 
     }
 
-    public E removeLast (){
-
-    }
-
-    public E removeAt (int index){
-
-    }
-
-    public boolean remove (E elem){
-
-    }
-
-    public String toString(){
-
-    }
+//    public E removeLast (){
+//
+//    }
+//
+//    public E removeAt (int index){
+//
+//    }
+//
+//    public boolean remove (E elem){
+//
+//    }
+//
+//    public String toString(){
+//
+//    }
 
 }
