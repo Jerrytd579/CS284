@@ -116,10 +116,11 @@ public class IDLList<E> {
 
         Node<E> newNode = new Node<E>(elem);
         Node<E> oldTail = tail;
+        oldTail.next = newNode;
         tail = newNode;
         tail.prev = oldTail;
         size++;
-        this.indices.add(newNode);
+        indices.add(newNode);
         return true;
     }
 
@@ -162,38 +163,139 @@ public class IDLList<E> {
      * Removes and returns the element at the head.
      * @return the element at the head.
      */
-//    public E remove (){
-//
-//    }
+    public E remove (){
+        if (size == 0) {
+            throw new IllegalStateException();
+        }
 
-//    public E removeLast (){
-//
-//    }
-//
-//    public E removeAt (int index){
-//
-//    }
-//
-//    public boolean remove (E elem){
-//
-//    }
-//
+        E data = head.data;
+
+        if (size == 1) {
+            head = null;
+            tail = null;
+        }
+
+        else {
+            head = head.next;
+            head.prev = null;
+        }
+
+        size--;
+        indices.remove(0);
+        return data;
+    }
+
+    /**
+     * Removes and returns the element at the tail
+     * @return the element at the tail
+     */
+    public E removeLast (){
+        if (size == 0) {
+            throw new IllegalStateException();
+        }
+        E data = tail.data;
+
+        if (size == 1) {
+            head = null;
+            tail = null;
+        }
+
+        else {
+            tail = tail.prev;
+            tail.next = null;
+        }
+        return data;
+    }
+
+    /**
+     * Removes and returns the element at the index index.
+     * @param index the index where the element is located
+     * @return returns the element at index
+     */
+    public E removeAt (int index){
+        if (size == 0 || index > size) {
+            throw new IllegalArgumentException();
+        }
+        if(index == 0) {
+            return this.remove();
+        }
+        if(index == size - 1) {
+            return this.removeLast();
+        }
+
+        Node<E> elem = indices.get(index);
+        E data = elem.data;
+
+        elem.prev.next = elem.next;
+        elem.next.prev = elem.prev;
+
+        size--;
+        indices.remove(index);
+        return data;
+    }
+
+    /**
+     * Removes the first occurence of elem in the list and returns true. Returns false if elem is
+     * not in the list.
+     * @param elem element to be removed
+     * @return true if elem is successfully removed, false otherwise
+     */
+    public boolean remove (E elem){
+        if(size == 0) {
+            return false;
+        }
+        Node<E> current = head;
+        while(current != null) {
+            if(current.data == elem) {
+                current.prev.next = current.next;
+                current.next.prev = current.prev;
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
+
+    /**
+     * Presents a string representation of the list
+     * @return s as a string
+     */
     public String toString(){
         Node<E> current = head;
         StringBuilder s = new StringBuilder();
         s.append("[");
         while(current != null) {
-            s.append(current.data.toString() + ",");
+            s.append(current.data.toString() + ";");
             current = current.next;
         }
         s.append("]");
         return s.toString();
     }
+
+    //*********************************************************
     public static void main(String[] args) {
         IDLList<Integer> l = new IDLList<>();
+//        l.add(3);
+//        l.add(4);
+//        l.add(5);
+//        l.add(7);
+//        l.append(8);
+//        System.out.println(l);
+//        System.out.println(l.get(3));
+//        System.out.println(l.size());
+//        System.out.println(l.getHead());
+//        System.out.println(l.getLast());
+//        l.remove();
+//        l.removeLast();
+//        System.out.println(l);
+        l.add(1);
+        l.add(2);
         l.add(3);
         l.add(4);
         l.add(5);
+        l.remove(2);
         System.out.println(l);
+
     }
 }
