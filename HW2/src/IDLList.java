@@ -183,11 +183,8 @@ public class IDLList<E> {
         StringBuilder s = new StringBuilder();
         s.append("[");
         while(current != null) {
-            s.append(current.data);
+            s.append(current.data.toString() + ",");
             current = current.next;
-            if(current != null) {
-                s.append(";");
-            }
         }
         s.append("]");
         return s.toString();
