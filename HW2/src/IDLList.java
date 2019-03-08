@@ -159,12 +159,12 @@ public class IDLList<E> {
     }
 
     /**
-     * Removes and returns the element at the head
-     * @return the elemnt at the head
+     * Removes and returns the element at the head.
+     * @return the element at the head.
      */
-    public E remove (){
-
-    }
+//    public E remove (){
+//
+//    }
 
 //    public E removeLast (){
 //
@@ -178,8 +178,25 @@ public class IDLList<E> {
 //
 //    }
 //
-//    public String toString(){
-//
-//    }
-
+    public String toString(){
+        Node<E> current = head;
+        StringBuilder s = new StringBuilder();
+        s.append("[");
+        while(current != null) {
+            s.append(current.data);
+            current = current.next;
+            if(current != null) {
+                s.append(";");
+            }
+        }
+        s.append("]");
+        return s.toString();
+    }
+    public static void main(String[] args) {
+        IDLList<Integer> l = new IDLList<>();
+        l.add(3);
+        l.add(4);
+        l.add(5);
+        System.out.println(l);
+    }
 }
