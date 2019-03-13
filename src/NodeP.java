@@ -34,4 +34,15 @@ public class NodeP<E> {
 				current = current.next;
 			}
 		}
+
+		private NodeP<E>[] build_index() {
+			NodeP[] result= new NodeP[this.top_priority()];
+			NodeP<E> current = this;
+
+			while(current != null) {
+				result[current.priority] = current;
+				current = current.next;
+			}
+			return result;
+		}
 }
