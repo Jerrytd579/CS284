@@ -132,6 +132,9 @@ public class IDLList<E> {
      * @return the data at given index
      */
     public E get (int index){
+        if(index > size) {
+            throw new IllegalArgumentException();
+        }
         return this.indices.get(index).data;
     }
 
@@ -140,6 +143,9 @@ public class IDLList<E> {
      * @return the object at the head.
      */
     public E getHead (){
+        if(size == 0) {
+            throw new IllegalStateException("Size is 0!");
+        }
         return this.head.data;
     }
 
@@ -148,6 +154,9 @@ public class IDLList<E> {
      * @return the object at the tail
      */
     public E getLast (){
+        if(size == 0) {
+            throw new IllegalStateException("Size is 0!");
+        }
         return this.tail.data;
     }
 
@@ -294,7 +303,7 @@ public class IDLList<E> {
         l.add(3);
         l.add(4);
         l.add(5);
-        l.remove(2);
+        l.removeAt(2);
         System.out.println(l);
 
     }

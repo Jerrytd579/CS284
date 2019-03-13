@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c21c37-2c08-472b-ab2b-9d36c0468de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Complexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Complexity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackSLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackSLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/HW2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/HW2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/src/IDLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/src/IDLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/src/IDLListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/src/IDLListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +17,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW2/src/IDLList.java">
+        <entry file="file://$PROJECT_DIR$/HW2/src/IDLListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="3230">
+              <caret line="193" column="33" selection-start-line="193" selection-start-column="33" selection-end-line="193" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingleLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="2170">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -35,39 +40,20 @@
                 <element signature="e#409#410#0" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#2957#2958#0" expanded="true" />
-                <element signature="e#2988#2989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StackSLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2028">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NodeP.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Complexity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="323">
               <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
             </state>
           </provider>
@@ -75,9 +61,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StackNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-478" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -101,12 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="187">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +110,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -180,19 +162,21 @@
         <option value="$PROJECT_DIR$/src/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/ParenChecker.java" />
         <option value="$PROJECT_DIR$/src/Mar4.java" />
-        <option value="$PROJECT_DIR$/HW2/src/IDLList.java" />
         <option value="$PROJECT_DIR$/src/MyStack.java" />
         <option value="$PROJECT_DIR$/src/SingleLL.java" />
         <option value="$PROJECT_DIR$/src/StackSLL.java" />
         <option value="$PROJECT_DIR$/src/Complexity.java" />
+        <option value="$PROJECT_DIR$/HW2/src/IDLList.java" />
+        <option value="$PROJECT_DIR$/HW2/src/IDLListTest.java" />
+        <option value="$PROJECT_DIR$/src/NodeP.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="222" />
-    <option name="y" value="66" />
-    <option name="width" value="164" />
-    <option name="height" value="75" />
+    <option name="x" value="176" />
+    <option name="y" value="51" />
+    <option name="width" value="133" />
+    <option name="height" value="60" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,6 +186,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,33 +212,13 @@
             <path>
               <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="People" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="Rec2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
+              <item name="HW2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="Stacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +260,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551925445396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552443446915" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -299,20 +274,20 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\BankAccount" />
+      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\src" />
+      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\People" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\LinkedListPractice" />
       <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\Stacks" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\BankAccount" />
-      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\src" />
-      <recent name="C:\Users\jerry\IdeaProjects\Data Structures - Bonelli\People" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,59 +302,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromeChecker">
-    <configuration name="BinaryNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryNumber" />
-      <module name="HW1" />
+  <component name="RunManager" selected="JUnit.IDLListTest.toStringTest">
+    <configuration name="IDLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IDLList" />
+      <module name="HW2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Complexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Complexity" />
-      <module name="Data Structures - Bonelli" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PalindromeChecker" />
-      <module name="Data Structures - Bonelli" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleLL" />
-      <module name="Data Structures - Bonelli" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DogTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rec2" />
+    <configuration name="IDLListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DogTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="IDLListTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDLListTest.remove1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IDLListTest" />
+      <option name="METHOD_NAME" value="remove1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDLListTest.removeAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IDLListTest" />
+      <option name="METHOD_NAME" value="removeAt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDLListTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IDLListTest" />
+      <option name="METHOD_NAME" value="toStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryNumber" />
-      <item itemvalue="Application.Complexity" />
-      <item itemvalue="Application.SingleLL" />
-      <item itemvalue="Application.PalindromeChecker" />
-      <item itemvalue="JUnit.DogTest.test" />
+      <item itemvalue="Application.IDLList" />
+      <item itemvalue="JUnit.IDLListTest.removeAt" />
+      <item itemvalue="JUnit.IDLListTest.remove1" />
+      <item itemvalue="JUnit.IDLListTest.get" />
+      <item itemvalue="JUnit.IDLListTest.toStringTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromeChecker" />
-        <item itemvalue="Application.SingleLL" />
-        <item itemvalue="Application.Complexity" />
-        <item itemvalue="Application.BinaryNumber" />
-        <item itemvalue="JUnit.DogTest.test" />
+        <item itemvalue="JUnit.IDLListTest.toStringTest" />
+        <item itemvalue="JUnit.IDLListTest.get" />
+        <item itemvalue="JUnit.IDLListTest.remove1" />
+        <item itemvalue="JUnit.IDLListTest.removeAt" />
+        <item itemvalue="Application.IDLList" />
       </list>
     </recent_temporary>
   </component>
@@ -413,6 +397,8 @@
       <workItem from="1551110464234" duration="2956000" />
       <workItem from="1551206738352" duration="6246000" />
       <workItem from="1551715240880" duration="12600000" />
+      <workItem from="1552060786979" duration="16613000" />
+      <workItem from="1552436510326" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="2/1">
       <created>1549051579201</created>
@@ -432,29 +418,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DogTest - 2019.02.01 at 15h 19m 44s.xml">
-      <configuration name="DogTest" configurationId="JUnit" />
+    <history-entry file="IDLListTest_removeAt - 2019.03.08 at 18h 09m 29s.xml">
+      <configuration name="IDLListTest.removeAt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DogTest - 2019.02.01 at 15h 20m 27s.xml">
-      <configuration name="DogTest" configurationId="JUnit" />
+    <history-entry file="IDLListTest_removeAt - 2019.03.08 at 18h 09m 57s.xml">
+      <configuration name="IDLListTest.removeAt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DogTest - 2019.02.01 at 15h 21m 10s.xml">
-      <configuration name="DogTest" configurationId="JUnit" />
+    <history-entry file="IDLListTest_removeAt - 2019.03.08 at 18h 10m 17s.xml">
+      <configuration name="IDLListTest.removeAt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DogTest - 2019.02.01 at 15h 22m 31s.xml">
-      <configuration name="DogTest" configurationId="JUnit" />
+    <history-entry file="IDLListTest_remove1 - 2019.03.08 at 18h 12m 31s.xml">
+      <configuration name="IDLListTest.remove1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DogTest_test - 2019.02.01 at 15h 22m 50s.xml">
-      <configuration name="DogTest.test" configurationId="JUnit" />
+    <history-entry file="IDLListTest_remove1 - 2019.03.08 at 18h 12m 51s.xml">
+      <configuration name="IDLListTest.remove1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDLListTest_remove1 - 2019.03.08 at 18h 13m 34s.xml">
+      <configuration name="IDLListTest.remove1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDLListTest_get - 2019.03.08 at 18h 13m 43s.xml">
+      <configuration name="IDLListTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDLListTest_get - 2019.03.08 at 18h 14m 14s.xml">
+      <configuration name="IDLListTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDLListTest_toStringTest - 2019.03.08 at 18h 17m 12s.xml">
+      <configuration name="IDLListTest.toStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDLListTest_toStringTest - 2019.03.08 at 18h 17m 35s.xml">
+      <configuration name="IDLListTest.toStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73170000" />
+    <option name="totallyTimeSpent" value="91386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2414" height="1574" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12744266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33564493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.25135428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,9 +473,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32993197" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.13434453" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.1699029" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995752" visible="true" weight="0.3294036" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004248" side_tool="true" visible="true" weight="0.3294036" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" weight="0.16901408" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -687,6 +689,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mar4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackSLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/src/IDLList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6512">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/src/IDLListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="193" column="33" selection-start-line="193" selection-start-column="33" selection-end-line="193" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Complexity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListPractice/src/Exercices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -701,47 +752,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PalindromeChecker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mar4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="187">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW2/src/IDLList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/PalindromeChecker.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleLL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="2170">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
@@ -749,38 +779,12 @@
             <element signature="e#409#410#0" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#2957#2958#0" expanded="true" />
-            <element signature="e#2988#2989#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackSLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2028">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Complexity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/NodeP.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
