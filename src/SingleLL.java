@@ -64,6 +64,21 @@ public class SingleLL<E> {
 			size++;
 		}
 	}
+
+	private Node<E> addLast_r_helper(E item, Node<E> current) {
+		if(current == null) {
+			return new Node<E>(item);
+		}
+		else {
+			current.next = addLast_r_helper(item, current.next);
+			return current;
+		}
+	}
+
+	public void addLast_r(E item) {
+		size++;
+		head = addLast_r_helper(item, head);
+	}
 	
 	public E get(int index) {
 		if (index<0 || index>size-1) {
@@ -113,6 +128,28 @@ public class SingleLL<E> {
 		
 		
 	}
+
+	private Node<E> removeLast_r_helper(Node<E> current) {
+		if(current.next == null) {
+			return null;
+		}
+
+		else {
+			current.next = removeLast_r_helper(current.next);
+			return current;
+		}
+	}
+
+//	public E removeLast_r() {
+//		if (size == 0) {
+//			throw new IllegalStateException();
+//		}
+//		if (size==1) { // singleton list
+//			this.removeFirst();
+//		}
+//		size --;
+//		head = removeLast_r_helper(head);
+//	}
 	
 	public E remove(int index) {
 		if (index<0 || index>size-1) {
@@ -312,6 +349,32 @@ public class SingleLL<E> {
 		}
 		return r;
 	}
+
+	public static double ffib(int n, double old, double current) {
+		if(n<=1) {
+			return current;
+		}
+		else {
+			return ffib(n-1, current, old+current);
+		}
+	}
+
+	public static double wfib(int n) {
+		double old = 1;
+		double current = 1;
+		int i = n;
+
+		while(i > 1) {
+			double temp = current;
+			current += old;
+			old = temp;
+			i --;
+		}
+
+		return current;
+	}
+
+
 	
 	public String toString() {
 		StringBuilder s = new StringBuilder();
@@ -328,22 +391,24 @@ public class SingleLL<E> {
 	}
 	
 	public static void main(String[] args) {
-		SingleLL<Integer> l = new SingleLL<Integer>();
-		
-		l.addFirst(3);
-		l.addFirst(2);
-		l.addFirst(1);
-		l.addLast(4);
-		System.out.println(l);
-		l.removeFirst();
-		System.out.println(l);
-		System.out.println(l.take(10));
-		System.out.println(l.take(0));
-		System.out.println(l.take(1));
-		System.out.println(l.take(2));
+//		SingleLL<Integer> l = new SingleLL<Integer>();
+//
+//		l.addFirst(3);
+//		l.addFirst(2);
+//		l.addFirst(1);
+//		l.addLast(4);
+//		System.out.println(l);
+//		l.removeFirst();
+//		System.out.println(l);
+//		System.out.println(l.take(10));
+//		System.out.println(l.take(0));
+//		System.out.println(l.take(1));
+//		System.out.println(l.take(2));
 
 //		System.out.println(l.member(4));
 //		System.out.println(l.member(7));
+		System.out.println(ffib(5,1, 1));
+		System.out.println(wfib(5));
 		
 	}
  }

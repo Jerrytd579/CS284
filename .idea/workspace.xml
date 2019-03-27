@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c21c37-2c08-472b-ab2b-9d36c0468de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/NodeP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodeP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data Structures - Bonelli/Complexity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data Structures - Bonelli/Complexity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,23 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW2/src/IDLListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3230">
-              <caret line="193" column="33" selection-start-line="193" selection-start-column="33" selection-end-line="193" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SingleLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2170">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="333">
+              <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
               <folding>
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -42,14 +33,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NodeP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sorts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#0#7529#0" expanded="true" />
+                <element signature="e#1910#1911#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +118,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,20 +171,21 @@
         <option value="$PROJECT_DIR$/src/ParenChecker.java" />
         <option value="$PROJECT_DIR$/src/Mar4.java" />
         <option value="$PROJECT_DIR$/src/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/SingleLL.java" />
         <option value="$PROJECT_DIR$/src/StackSLL.java" />
         <option value="$PROJECT_DIR$/src/Complexity.java" />
         <option value="$PROJECT_DIR$/HW2/src/IDLList.java" />
         <option value="$PROJECT_DIR$/HW2/src/IDLListTest.java" />
         <option value="$PROJECT_DIR$/src/NodeP.java" />
+        <option value="$PROJECT_DIR$/src/recursion.java" />
+        <option value="$PROJECT_DIR$/src/SingleLL.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="51" />
-    <option name="width" value="133" />
-    <option name="height" value="60" />
+    <option name="x" value="110" />
+    <option name="y" value="30" />
+    <option name="width" value="85" />
+    <option name="height" value="40" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,44 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="HW2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -247,6 +222,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data Structures - Bonelli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data Structures - Bonelli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +258,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552449745614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553700762361" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -264,7 +266,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -298,10 +300,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IDLListTest.toStringTest">
-    <configuration name="IDLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IDLList" />
-      <module name="HW2" />
+  <component name="RunManager" selected="Application.SingleLL">
+    <configuration name="SingleLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleLL" />
+      <module name="Data Structures - Bonelli" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,7 +349,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IDLList" />
+      <item itemvalue="Application.SingleLL" />
       <item itemvalue="JUnit.IDLListTest.removeAt" />
       <item itemvalue="JUnit.IDLListTest.remove1" />
       <item itemvalue="JUnit.IDLListTest.get" />
@@ -355,11 +357,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleLL" />
         <item itemvalue="JUnit.IDLListTest.toStringTest" />
         <item itemvalue="JUnit.IDLListTest.get" />
         <item itemvalue="JUnit.IDLListTest.remove1" />
         <item itemvalue="JUnit.IDLListTest.removeAt" />
-        <item itemvalue="Application.IDLList" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +396,12 @@
       <workItem from="1551206738352" duration="6246000" />
       <workItem from="1551715240880" duration="12600000" />
       <workItem from="1552060786979" duration="16613000" />
-      <workItem from="1552436510326" duration="5293000" />
+      <workItem from="1552436510326" duration="7807000" />
+      <workItem from="1552461331788" duration="1052000" />
+      <workItem from="1552661803630" duration="1752000" />
+      <workItem from="1553526385408" duration="3082000" />
+      <workItem from="1553637355439" duration="1377000" />
+      <workItem from="1553698872680" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="2/1">
       <created>1549051579201</created>
@@ -446,13 +453,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95076000" />
+    <option name="totallyTimeSpent" value="106006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2414" height="1574" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12744266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +468,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.25135428" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49745116" weight="0.25104022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,8 +476,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995752" visible="true" weight="0.15742025" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004248" side_tool="true" visible="true" weight="0.15742025" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49787596" weight="0.106796116" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5025489" side_tool="true" visible="true" weight="0.10055479" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" weight="0.16901408" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,6 +497,18 @@
     <MESSAGE value="2/1" />
     <MESSAGE value="2/9" />
     <option name="LAST_COMMIT_MESSAGE" value="2/9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
@@ -714,12 +733,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Complexity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW2/src/IDLListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3230">
           <caret line="193" column="33" selection-start-line="193" selection-start-column="33" selection-end-line="193" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NodeP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#7529#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,39 +825,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2170">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Complexity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NodeP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
