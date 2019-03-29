@@ -104,9 +104,9 @@ public class BTree<E> {
     }
 
     public static void main(String[] args) {
-        MyBTree<Integer> t1 = new MyBTree<Integer>(23,new MyBTree<Integer>(12),new MyBTree<Integer>(27));
-		MyBTree<Integer> t2 = new MyBTree<Integer>(72,new MyBTree<Integer>(43),new MyBTree<Integer>(13));
-        MyBTree<Integer> t = new MyBTree<Integer>(34,t1,t2);
+        BTree<Integer> t1 = new BTree<Integer>(23,new BTree<Integer>(12),new BTree<Integer>(27));
+		BTree<Integer> t2 = new BTree<Integer>(72,new BTree<Integer>(43),new BTree<Integer>(13));
+        BTree<Integer> t = new BTree<Integer>(34,t1,t2);
 
         /**
          *        34
