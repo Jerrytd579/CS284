@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c21c37-2c08-472b-ab2b-9d36c0468de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HW3/src/HW3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3/src/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3/src/MazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/MazeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/src/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="2580">
               <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -52,10 +51,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BSTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+              <folding>
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#3076#3077#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="101" selection-start-line="101" selection-end-line="106" selection-end-column="9" />
+            <state relative-caret-position="449">
+              <caret line="113" selection-start-line="113" selection-end-line="114" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -119,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/People/src/Person.java" />
-        <option value="$PROJECT_DIR$/People/src/Main.java" />
         <option value="$PROJECT_DIR$/People/src/Student.java" />
         <option value="$PROJECT_DIR$/BankAccount/src/SavingsAccount.java" />
         <option value="$PROJECT_DIR$/BankAccount/src/CheckingAccount.java" />
@@ -170,6 +183,8 @@
         <option value="$PROJECT_DIR$/HW3/src/PairInt.java" />
         <option value="$PROJECT_DIR$/HW3/src/Maze.java" />
         <option value="$PROJECT_DIR$/HW3/src/MazeTest.java" />
+        <option value="$PROJECT_DIR$/src/BSTree-1.java" />
+        <option value="$PROJECT_DIR$/src/BSTree.java" />
       </list>
     </option>
   </component>
@@ -272,7 +287,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554485835384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554493562224" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -418,7 +433,7 @@
       <workItem from="1554131256078" duration="7053000" />
       <workItem from="1554304695086" duration="2724000" />
       <workItem from="1554406986221" duration="4184000" />
-      <workItem from="1554476489892" duration="6204000" />
+      <workItem from="1554476489892" duration="9715000" />
     </task>
     <task id="LOCAL-00001" summary="2/1">
       <created>1549051579201</created>
@@ -470,13 +485,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137331000" />
+    <option name="totallyTimeSpent" value="140842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1728" height="1117" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13353294" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13353294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,7 +500,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946108" visible="true" weight="0.22210953" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946108" visible="true" weight="0.22210953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,7 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AnotherClass.java" />
     <entry file="file://$PROJECT_DIR$/src/AClass.java" />
     <entry file="file://$PROJECT_DIR$/src/MyListNew.java" />
     <entry file="file://$PROJECT_DIR$/HW1/src/BinaryNumber.java">
@@ -849,9 +863,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="113" selection-start-line="113" selection-end-line="114" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/src/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="2580">
           <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -866,10 +887,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/BSTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="101" selection-start-line="101" selection-end-line="106" selection-end-column="9" />
+        <state relative-caret-position="-280">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#3076#3077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
