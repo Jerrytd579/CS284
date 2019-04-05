@@ -118,7 +118,7 @@ public class Maze implements GridColors {
 
     public ArrayList<PairInt> findMazePathMin(int x, int y) {
         maze.recolor(GridColors.PATH, GridColors.NON_BACKGROUND);
-        ArrayList<ArrayList<PairInt>> result = new ArrayList<>();
+        ArrayList<ArrayList<PairInt>> result;
         result = findAllMazePaths(x,y);
 
         if (result.size() != 0) {
