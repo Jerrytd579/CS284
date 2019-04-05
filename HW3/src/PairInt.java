@@ -1,3 +1,9 @@
+/**
+ * Jerry Cheng
+ *
+ * I pledge my honor that I have abided by the Stevens Honor System
+ */
+
 public class PairInt {
 
     private int x;

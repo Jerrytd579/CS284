@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c21c37-2c08-472b-ab2b-9d36c0468de1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/src/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/src/MazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/MazeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/src/PairInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/PairInt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,55 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW3/src/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="1500">
+              <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#2407#2408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW3/src/PairInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW3/src/GridColors.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW3/src/TwoDimGrid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#3407#3416#0" expanded="true" />
+                <element signature="e#5002#5003#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +55,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1218" />
+            <state relative-caret-position="931">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW3/src/PairInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="818">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW3/src/GridColors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW3/src/TwoDimGrid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -158,16 +169,16 @@
         <option value="$PROJECT_DIR$/HW3/src/GridColors.java" />
         <option value="$PROJECT_DIR$/HW3/src/TwoDimGrid.java" />
         <option value="$PROJECT_DIR$/HW3/src/MazeTest.java" />
-        <option value="$PROJECT_DIR$/HW3/src/Maze.java" />
         <option value="$PROJECT_DIR$/HW3/src/PairInt.java" />
+        <option value="$PROJECT_DIR$/HW3/src/Maze.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="44" />
-    <option name="y" value="12" />
-    <option name="width" value="36" />
-    <option name="height" value="17" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="43" />
+    <option name="y" value="10" />
+    <option name="width" value="37" />
+    <option name="height" value="18" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,17 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -253,6 +253,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Data Structures - Bonelli" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Rec2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +273,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554410658113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554485537429" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -304,10 +315,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BTree">
+  <component name="RunManager" selected="Application.MazeTest">
     <configuration name="BTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BTree" />
       <module name="Data Structures - Bonelli" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MazeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MazeTest" />
+      <module name="HW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,16 +350,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDLListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IDLListTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IDLListTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <option name="PACKAGE_NAME" value="" />
@@ -356,16 +364,16 @@
       <item itemvalue="Application.SingleLL" />
       <item itemvalue="Application.RockBand" />
       <item itemvalue="Application.BTree" />
-      <item itemvalue="JUnit.IDLListTest.get" />
       <item itemvalue="JUnit.IDLListTest.toStringTest" />
+      <item itemvalue="Application.MazeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeTest" />
         <item itemvalue="Application.BTree" />
         <item itemvalue="Application.RockBand" />
         <item itemvalue="Application.SingleLL" />
         <item itemvalue="JUnit.IDLListTest.toStringTest" />
-        <item itemvalue="JUnit.IDLListTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -411,6 +419,7 @@
       <workItem from="1554131256078" duration="7053000" />
       <workItem from="1554304695086" duration="2724000" />
       <workItem from="1554406986221" duration="4184000" />
+      <workItem from="1554476489892" duration="5944000" />
     </task>
     <task id="LOCAL-00001" summary="2/1">
       <created>1549051579201</created>
@@ -462,12 +471,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131127000" />
+    <option name="totallyTimeSpent" value="137071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1728" height="1117" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13473053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +486,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.08125677" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946108" visible="true" weight="0.22210953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,8 +495,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49787596" weight="0.106796116" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.19176598" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49617672" weight="0.16851595" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5053892" side_tool="true" weight="0.22210953" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4958084" weight="0.168357" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,6 +507,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13473053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946108" visible="true" weight="0.22210953" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49787596" weight="0.106796116" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5053892" side_tool="true" visible="true" weight="0.22210953" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4958084" weight="0.168357" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -757,6 +798,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/src/PairInt/Java.java" />
+    <entry file="file://$PROJECT_DIR$/HW3/src/PairInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/src/GridColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/src/TwoDimGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -772,60 +857,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/PairInt/Java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/TwoDimGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/MazeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1218" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/GridColors.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/src/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="1500">
+          <caret line="92" column="42" lean-forward="true" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
           <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#2407#2408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/src/PairInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#3407#3416#0" expanded="true" />
+            <element signature="e#5002#5003#0" expanded="true" />
           </folding>
         </state>
       </provider>
