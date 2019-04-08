@@ -1,5 +1,4 @@
 import java.util.EmptyStackException;
-import java.util.Scanner;
 
 public class MyStack<E> {
 
@@ -45,5 +44,8 @@ public class MyStack<E> {
         top = top.next;
         size--;
         return saved;
+    }
+
+    public static class Heap {
     }
 }

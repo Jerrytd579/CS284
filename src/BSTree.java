@@ -61,7 +61,7 @@ public class BSTree<E extends Comparable> {
     }
 
     public boolean remove(E elem){
-
+        return false;
     }
 
     public boolean remove(Node<E> node, E elem) {
@@ -94,6 +94,7 @@ public class BSTree<E extends Comparable> {
                 node.copy(node.right);
             }
         }
+        return false;
     }
 
     public Node<E> rotateLeft(Node<E> node){
