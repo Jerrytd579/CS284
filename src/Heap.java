@@ -32,6 +32,36 @@ public class Heap<E extends Comparable<E>> {
 
         last++;
     }
+
+    public E remove() {
+        E temp = data[0];
+        data[0] = data[last - 1];
+        int parent = 0;
+        int minChild;
+
+        while(true) {
+            int leftChild = (parent*2) + 1;
+            int rightChild = leftChild + 1;
+
+            if (leftChild >= last) { // no children
+                break;
+            }
+            minChild = leftChild;
+            if (rightChild < last && data[rightChild].compareTo(data[leftChild]) < 0) {
+                minChild = rightChild;
+            }
+            // have at least one child and minChild points to the smallest
+            if (data[minChild].compareTo(data[parent]) > 0) {
+                break;
+            }
+            swap(parent, minChild);
+            parent = minChild;
+        }
+
+        last --;
+        return temp;
+    }
+
     public String toString() {
         return Arrays.toString(data);
     }
@@ -41,8 +71,10 @@ public class Heap<E extends Comparable<E>> {
         Random r = new Random();
 
         for (int i = 0; i < 10; i++) {
-            h.add(r.nextInt(100));
+            h.add(i);
         }
+        System.out.println(h);
+        System.out.println(h.remove());
         System.out.println(h);
     }
 }
