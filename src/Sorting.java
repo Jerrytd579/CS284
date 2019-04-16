@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Sorting {
 
     /**
@@ -7,6 +10,28 @@ public class Sorting {
         int temp = array[a];
         array[a] = b;
         array[b] = temp;
+    }
+
+    public static int[] merge(int[] a, int[] b) {
+        int[] result = new int[a.length+b.length];
+        int ia = 0;
+        int ib = 0;
+        int ic = 0;
+
+        for(int i = 0; i < result.length; i++) {
+            if(a[ia] < b[ib]) {
+                result[ic] = a[ia];
+                ia++;
+                ic++;
+            }
+            else{
+                result[ic] = b[ib];
+                ib++;
+                ic++;
+            }
+        }
+
+        return result;
     }
 
     public static int[] bubbleSort(int[] array) {
@@ -55,16 +80,21 @@ public class Sorting {
         return array;
     }
 
+
+
     public static void main(String[] args) {
-        int[] simpleTest = {6, 9, 5, 4, 3};
+//        int[] simpleTest = {6, 9, 5, 4, 3};
+//
+//         int[] sorted1 = bubbleSort(simpleTest);
+//         int[] sorted2 = selectionSort(simpleTest);
+//         int[] sorted3 = insertionSort(simpleTest);
+//
+//         System.out.println(Arrays.toString(sorted1));
+//         System.out.println(Arrays.toString(sorted2));
+//         System.out.println(Arrays.toString(sorted3));
+        
+        System.out.println();
 
-        // int[] sorted1 = bubbleSort(simpleTest);
-        // int[] sorted2 = selectionSort(simpleTest);
-        // int[] sorted3 = insertionSort(simpleTest);
-
-        // System.out.println(Arrays.toString(sorted1));
-        // System.out.println(Arrays.toString(sorted2));
-        // System.out.println(Arrays.toString(sorted3));
     }
 
 }
