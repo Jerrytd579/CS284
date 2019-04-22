@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Sorting {
@@ -80,10 +79,83 @@ public class Sorting {
         return array;
     }
 
+//    public static int[] partition(int[] table, int first, int last) {
+//        int pivot = table[0];
+//        int up = first;
+//        int down = last;
+//
+//        do{
+//            while(table[up] < pivot && up < down) {
+//                up++;
+//            }
+//            while(table[down] > pivot) {
+//                down--;
+//            }
+//            swap(table, up, down);
+//        }
+//        while(up < down);
+//        swap(table, first, down);
+//        return table;
+//    }
+
+    private static <E extends Comparable<E>> void qsswap(E[] a, int i, int j) {
+        E temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }
+
+    public static <E extends Comparable<E>> void qs(E[] a) {
+        qs(a, 0, a.length - 1);
+    }
+
+    private static <E extends Comparable<E>> int partition(E[] a, int first, int last) {
+        int up = first;
+        int down = last;
+        int pivot = first;
+
+        do{
+            while(a[up].compareTo(a[pivot]) <= 0 && up < down) {
+                up++;
+            }
+            while(a[down].compareTo(a[pivot]) > 0) {
+                down--;
+            }
+            if (up < down) {
+                qsswap(a, up, down);
+            }
+        }
+        while(up < down);
+
+        qsswap(a, first, down);
+        return down;
+    }
+
+    private static <E extends Comparable<E>> int partition2(E[] a, int first, int last) {
+        if (last - first > 2) {
+            int left = first;
+            int right = last;
+            int middle = (last = first) / 2;
+
+
+
+            qsswap(a, left, middle);
+        }
+
+        return partition(a, first, last);
+    }
+
+    private static <E extends Comparable<E>> void qs(E[] a, int first, int last) {
+        if(first < last) {
+            int pivIndex = partition(a, first, last);
+            qs(a, first, pivIndex - 1);
+            qs(a, pivIndex + 1, last);
+        }
+    }
+
 
 
     public static void main(String[] args) {
-//        int[] simpleTest = {6, 9, 5, 4, 3};
+        int[] simpleTest = {10, 7, 5, 4, 2, 30, 22, 19};
 //
 //         int[] sorted1 = bubbleSort(simpleTest);
 //         int[] sorted2 = selectionSort(simpleTest);
@@ -93,7 +165,7 @@ public class Sorting {
 //         System.out.println(Arrays.toString(sorted2));
 //         System.out.println(Arrays.toString(sorted3));
         
-        System.out.println();
+
 
     }
 
