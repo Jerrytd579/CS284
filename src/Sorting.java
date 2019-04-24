@@ -108,27 +108,27 @@ public class Sorting {
         qs(a, 0, a.length - 1);
     }
 
-    private static <E extends Comparable<E>> int partition(E[] a, int first, int last) {
-        int up = first;
-        int down = last;
-        int pivot = first;
-
-        do{
-            while(a[up].compareTo(a[pivot]) <= 0 && up < down) {
-                up++;
-            }
-            while(a[down].compareTo(a[pivot]) > 0) {
-                down--;
-            }
-            if (up < down) {
-                qsswap(a, up, down);
-            }
-        }
-        while(up < down);
-
-        qsswap(a, first, down);
-        return down;
-    }
+//    private static <E extends Comparable<E>> int partition(E[] a, int first, int last) {
+//        int up = first;
+//        int down = last;
+//        int pivot = first;
+//
+//        do{
+//            while(a[up].compareTo(a[pivot]) <= 0 && up < down) {
+//                up++;
+//            }
+//            while(a[down].compareTo(a[pivot]) > 0) {
+//                down--;
+//            }
+//            if (up < down) {
+//                qsswap(a, up, down);
+//            }
+//        }
+//        while(up < down);
+//
+//        qsswap(a, first, down);
+//        return down;
+//    }
 
     private static <E extends Comparable<E>> int partition2(E[] a, int first, int last) {
         if (last - first > 2) {
@@ -152,6 +152,58 @@ public class Sorting {
         }
     }
 
+//    public static <E extends Comparable<E>> int partition(E[] a, int first, int last) {
+//        int up = first;
+//        int down = last;
+//        int pivot = first;
+//        int temp = 0;
+//        do{
+//            while(a[pivot].compareTo(a[down]) <0){
+//                down--;
+//            }
+//            if(a[pivot].compareTo(a[down]) > 0){
+//                temp = pivot;
+//                a[pivot] = a[down];
+//                a[down] = a[temp];
+//            }
+//            while(a[pivot].compareTo(a[up]) > 0){
+//                up++;
+//            }
+//            if(a[pivot].compareTo(a[up]) <0){
+//                temp = pivot;
+//                a[pivot] = a[up];
+//                a[up] = a[temp];
+//            }
+//        }
+//        while(!(up+1 == pivot && down-1 == pivot));
+//        return pivot;
+//    }
+
+    private static <E extends Comparable<E>> int partition(E[] a, int first, int last) {
+        int up = first;
+        int down = last;
+        int pivot = first;
+        E  temp;
+        while (a[pivot].compareTo(a[down]) < 0) {
+            down--;
+        }
+        if (a[pivot].compareTo(a[down]) > 0) {
+            temp = a[pivot];
+            a[pivot] = a[down];
+            a[down] = temp;
+            pivot = down;
+        }
+        while (a[pivot].compareTo(a[up]) > 0) {
+            up++;
+        }
+        if (a[pivot].compareTo(a[up]) < 0) {
+            temp = a[pivot];
+            a[pivot] = a[up];
+            a[up] = temp;
+            pivot = up;
+        }
+        return pivot;
+    }
 
 
     public static void main(String[] args) {
@@ -164,8 +216,8 @@ public class Sorting {
 //         System.out.println(Arrays.toString(sorted1));
 //         System.out.println(Arrays.toString(sorted2));
 //         System.out.println(Arrays.toString(sorted3));
-        
-
+        Integer[] test = {3, 0, 1, 8, 7, 2, 5, 4, 9, 6};
+        System.out.println((partition(test, 3, 6)));
 
     }
 
