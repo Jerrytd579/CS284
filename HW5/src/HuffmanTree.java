@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.PriorityQueue;
 
 /*
@@ -7,8 +8,6 @@ import java.util.PriorityQueue;
  * Third: Test you code.
  */
 
-
-// TODO: Name and Pledge
 
 // Pledge: I pledge my honor that I have abided by the Stevens Honor System.
 // Name: Jerry Cheng
@@ -141,33 +140,190 @@ public class HuffmanTree {
 	
 	// ******************** End of Stub Code ******************** //
 	// ********************************************************** //
-	
-	
-	public String bitsToString(Boolean[] encoding) {
-		// TODO Complete bitsToString method
-		return null;
-	}
-	
+
+	/**
+	 * Returns a string represenation of the tree.
+	 * @return a string representation of the tree
+	 */
+	@Override
 	public String toString() {
-		// TODO Complete toString method (see assignment specification)
 		// HINT: Might need helper method for preOrderTraversal
-		return null;
+		return preOrderTraversal(root, 0);
     }
-	
+
+	/**
+	 * Helper method for toString. Returns a string of the tree.
+	 * @param current current node
+	 * @param depth current depth
+	 * @return the string representation of the tree
+	 */
+	private String preOrderTraversal(Node current, int depth) {
+		StringBuilder sb = new StringBuilder();
+
+		for(int i = 0; i < depth; i ++) {
+			sb.append("	");
+		}
+
+		if(current instanceof LeafNode) {
+			sb.append(current.toString());
+			sb.append("\n");
+		}
+
+		else{
+			sb.append(current.toString());
+			sb.append("\n");
+			sb.append(preOrderTraversal(((InternalNode)current).left, depth + 1));
+			sb.append(preOrderTraversal(((InternalNode)current).right, depth + 1));
+		}
+
+		return sb.toString();
+	}
+
+	/**
+	 * Converts a boolean array into an array in bits
+	 * @param encoding the boolean array
+	 * @return an array made of bits
+	 */
+	public String bitsToString(Boolean[] encoding) {
+		StringBuilder result = new StringBuilder();
+
+		for (Boolean aBoolean : encoding) {
+			if (aBoolean) {
+				result.append("1");
+			} else {
+				result.append("0");
+			}
+		}
+		return result.toString();
+	}
+
+	/**
+	 * Converts an array of bits into a boolean array
+	 * @param str the string to be encoded
+	 * @return boolean array
+	 */
+
+	private Boolean[] stringToBits(String str) {
+		Boolean[] x = new Boolean[str.length()];
+
+		for(int i = 0; i < str.length(); i++) {
+			x[i] = str.charAt(i) == '1';
+		}
+
+		return x;
+	}
+
+	/**
+	 * An algorithm that uses the Huffman Tree to decode a sequence of bits
+	 * @param coding an array of bits
+	 * @return an output string of a decoded array of bits
+	 */
 	public String decode(Boolean[] coding) {
-		// TODO Complete decode method
-		return null;
+		if(coding == null || coding.length < 1) {
+			throw new IllegalArgumentException("Not a valid coding!");
+		}
+
+		Node traversal = root;
+		String bits = bitsToString(coding);
+		StringBuilder sb = new StringBuilder();
+
+		for(int i = 0; i < bits.length(); i++) {
+
+			if(bits.charAt(i) == '1') {
+				traversal = ((InternalNode)traversal).right;
+			}
+			else{
+				traversal = ((InternalNode)traversal).left;
+			}
+
+			if(traversal instanceof LeafNode) {
+				sb.append(((LeafNode)traversal).data);
+				traversal = root;
+			}
+		}
+		return sb.toString();
 	}
-	
+
+	/**
+	 * A helper function for encode. Looks through and finds a bit sequence for each item.
+	 * @param current the current node
+	 * @param b bits accumulated during recursion
+	 * @param target target character
+	 * @param sb a string to be appended to
+	 */
+	private void encodeHelper(Node current, String b, char target, StringBuilder sb) {
+		// If the we find it and its a leaf and its what we're looking for, append it. If not what
+		// we are looking for, return
+		if(current instanceof LeafNode) {
+			if(((LeafNode)current).data == target) {
+				sb.append(b);
+				return;
+			}else if(((LeafNode)current).data != target){
+				return;
+			}
+		}
+		encodeHelper(((InternalNode)current).left, b + "0", target, sb);
+		encodeHelper(((InternalNode)current).right, b + "0", target, sb);
+	}
+
+	/**
+	 * Naive encoding. A method that encodes a string into an array of booleans using a huffman tree.
+	 * @param inputText the string to encode
+	 * @return an array of booleans that represent an encoded string
+	 */
 	public Boolean[] encode(String inputText) {
-		// TODO Complete encode method
-		return null;
+		if(inputText == null || inputText.length() < 1) {
+			throw new IllegalArgumentException("Input has to be at least 1 character");
+		}
+		StringBuilder sb = new StringBuilder();
+		String checker;
+
+		for(char c : inputText.toCharArray()) {
+			checker = sb.toString();
+			encodeHelper(root, "", c, sb);
+
+			if((sb.toString().equals(checker))) {
+				throw new IllegalArgumentException();
+			}
+		}
+		return stringToBits(sb.toString());
 	}
-	
+
+	private void efficientEncodeHelper(Node current, String accum, HashMap<Character, String> map) {
+		// If the current node is a leaf
+		if(current instanceof LeafNode) {
+			map.put(((LeafNode)current).data, accum);
+		}
+
+		// If the current node is an internal node, i.e. it has children
+		else if(current instanceof InternalNode) {
+			efficientEncodeHelper(((InternalNode)current).left, accum + "0", map);
+			efficientEncodeHelper(((InternalNode)current).right, accum + "0", map);
+		}
+	}
+
+	/**
+	 * A more efficient encoding way that does not have redundancies. In order to reuse the results
+	 * of previous lookups we use a hashmap.
+	 * @param inputText text to be encoded
+	 * @return an array of booleans that represent an encoded string
+	 */
 	public Boolean[] efficientEncode(String inputText) {
-		// TODO Complete efficientEncode method
 		// NOTE: Should only go through the tree once.
-		return null;
+		if(inputText == null || inputText.length() < 1) {
+			throw new IllegalArgumentException();
+		}
+		StringBuilder sb = new StringBuilder();
+		HashMap<Character, String> huffman = new HashMap<>();
+		efficientEncodeHelper(root, "", huffman);
+		for(char c : inputText.toCharArray()) {
+			if(huffman.containsKey(c) == false) {
+				throw new IllegalArgumentException();
+			}
+			sb.append(huffman.get(c));
+		}
+		return stringToBits(sb.toString());
+
 	}
 	
 	public static void main(String[] args) {
@@ -175,5 +331,6 @@ public class HuffmanTree {
 		String s = "Some string you want to encode";
 		HuffmanTree t = new HuffmanTree(s); // Creates specific Huffman Tree for "s"
 		// Now you can use encode, decode, and toString to interact with your specific Huffman Tree
+		System.out.println(t.encode(s).toString());
 	}
 }
