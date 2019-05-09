@@ -142,16 +142,6 @@ public class HuffmanTree {
 	// ********************************************************** //
 
 	/**
-	 * Returns a string represenation of the tree.
-	 * @return a string representation of the tree
-	 */
-	@Override
-	public String toString() {
-		// HINT: Might need helper method for preOrderTraversal
-		return preOrderTraversal(root, 0);
-    }
-
-	/**
 	 * Helper method for toString. Returns a string of the tree.
 	 * @param current current node
 	 * @param depth current depth
@@ -161,7 +151,7 @@ public class HuffmanTree {
 		StringBuilder sb = new StringBuilder();
 
 		for(int i = 0; i < depth; i ++) {
-			sb.append("	");
+			sb.append("  ");
 		}
 
 		if(current instanceof LeafNode) {
@@ -180,6 +170,16 @@ public class HuffmanTree {
 	}
 
 	/**
+	 * Returns a string represenation of the tree.
+	 * @return a string representation of the tree
+	 */
+	@Override
+	public String toString() {
+		// HINT: Might need helper method for preOrderTraversal
+		return preOrderTraversal(root, 0);
+	}
+
+	/**
 	 * Converts a boolean array into an array in bits
 	 * @param encoding the boolean array
 	 * @return an array made of bits
@@ -187,7 +187,7 @@ public class HuffmanTree {
 	public String bitsToString(Boolean[] encoding) {
 		StringBuilder result = new StringBuilder();
 
-		for (Boolean aBoolean : encoding) {
+		for (boolean aBoolean : encoding) {
 			if (aBoolean) {
 				result.append("1");
 			} else {
@@ -219,7 +219,7 @@ public class HuffmanTree {
 	 * @return an output string of a decoded array of bits
 	 */
 	public String decode(Boolean[] coding) {
-		if(coding == null || coding.length < 1) {
+		if(coding.length < 1) {
 			throw new IllegalArgumentException("Not a valid coding!");
 		}
 
@@ -258,12 +258,13 @@ public class HuffmanTree {
 			if(((LeafNode)current).data == target) {
 				sb.append(b);
 				return;
-			}else if(((LeafNode)current).data != target){
+			}
+			else if(((LeafNode)current).data != target){
 				return;
 			}
 		}
 		encodeHelper(((InternalNode)current).left, b + "0", target, sb);
-		encodeHelper(((InternalNode)current).right, b + "0", target, sb);
+		encodeHelper(((InternalNode)current).right, b + "1", target, sb);
 	}
 
 	/**
@@ -272,7 +273,7 @@ public class HuffmanTree {
 	 * @return an array of booleans that represent an encoded string
 	 */
 	public Boolean[] encode(String inputText) {
-		if(inputText == null || inputText.length() < 1) {
+		if(inputText.length() < 1) {
 			throw new IllegalArgumentException("Input has to be at least 1 character");
 		}
 		StringBuilder sb = new StringBuilder();
@@ -282,9 +283,9 @@ public class HuffmanTree {
 			checker = sb.toString();
 			encodeHelper(root, "", c, sb);
 
-			if((sb.toString().equals(checker))) {
-				throw new IllegalArgumentException();
-			}
+//			if((sb.toString().equals(checker))) {
+//				throw new IllegalArgumentException();
+//			}
 		}
 		return stringToBits(sb.toString());
 	}
@@ -298,7 +299,7 @@ public class HuffmanTree {
 		// If the current node is an internal node, i.e. it has children
 		else if(current instanceof InternalNode) {
 			efficientEncodeHelper(((InternalNode)current).left, accum + "0", map);
-			efficientEncodeHelper(((InternalNode)current).right, accum + "0", map);
+			efficientEncodeHelper(((InternalNode)current).right, accum + "1", map);
 		}
 	}
 
@@ -329,8 +330,8 @@ public class HuffmanTree {
 	public static void main(String[] args) {
 		// Code to see if stuff works...
 		String s = "Some string you want to encode";
+		String u ="101010101010101";
 		HuffmanTree t = new HuffmanTree(s); // Creates specific Huffman Tree for "s"
 		// Now you can use encode, decode, and toString to interact with your specific Huffman Tree
-		System.out.println(t.encode(s).toString());
 	}
 }

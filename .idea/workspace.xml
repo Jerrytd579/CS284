@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c21c37-2c08-472b-ab2b-9d36c0468de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EndTerm Review/EndTerm Review.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EndTerm Review/src/BTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW5/src/HuffmanTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW5/HW5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW5/HW5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW5/src/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW5/src/HuffmanTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW5/src/HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="333" column="28" selection-start-line="333" selection-start-column="28" selection-end-line="333" selection-end-column="28" />
+            <state relative-caret-position="171">
+              <caret line="295" column="48" lean-forward="true" selection-start-line="295" selection-start-column="48" selection-end-line="295" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
@@ -37,14 +36,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW5/src/HuffmanTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Pair.java" />
         <option value="$PROJECT_DIR$/src/PairIntInt.java" />
         <option value="$PROJECT_DIR$/src/Colorable.java" />
         <option value="$PROJECT_DIR$/src/Shape.java" />
@@ -105,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/BTree (1).java" />
         <option value="$PROJECT_DIR$/EndTerm Review/src/BTree (1).java" />
         <option value="$PROJECT_DIR$/HW5/src/HuffmanTree.java" />
+        <option value="$PROJECT_DIR$/HW5/src/HuffmanTreeTest.java" />
       </list>
     </option>
   </component>
@@ -229,7 +237,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557426782542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557429497896" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -272,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanTree">
+  <component name="RunManager" selected="JUnit.HuffmanTreeTest.efficientEncode">
     <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HuffmanTree" />
       <module name="HW5" />
@@ -287,44 +295,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting" />
-      <module name="Data Structures - Bonelli" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Treap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Treap" />
-      <module name="HW4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreapTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW4" />
+    <configuration name="HuffmanTreeTest.decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TreapTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="MAIN_CLASS_NAME" value="HuffmanTreeTest" />
+      <option name="METHOD_NAME" value="decode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanTreeTest.efficientEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HuffmanTreeTest" />
+      <option name="METHOD_NAME" value="efficientEncode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanTreeTest.encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HuffmanTreeTest" />
+      <option name="METHOD_NAME" value="encode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Sorting" />
-      <item itemvalue="Application.Treap" />
       <item itemvalue="Application.Sort" />
-      <item itemvalue="JUnit.TreapTest.add" />
       <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="JUnit.HuffmanTreeTest.decode" />
+      <item itemvalue="JUnit.HuffmanTreeTest.efficientEncode" />
+      <item itemvalue="JUnit.HuffmanTreeTest.encode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HuffmanTreeTest.efficientEncode" />
+        <item itemvalue="JUnit.HuffmanTreeTest.decode" />
+        <item itemvalue="JUnit.HuffmanTreeTest.encode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Sorting" />
-        <item itemvalue="Application.Treap" />
-        <item itemvalue="JUnit.TreapTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +402,7 @@
       <workItem from="1556722826547" duration="611000" />
       <workItem from="1556810883071" duration="602000" />
       <workItem from="1556898279678" duration="3972000" />
-      <workItem from="1557194690869" duration="10512000" />
+      <workItem from="1557194690869" duration="13118000" />
     </task>
     <task id="LOCAL-00001" summary="2/1">
       <created>1549051579201</created>
@@ -446,49 +460,56 @@
       <option name="project" value="LOCAL" />
       <updated>1555968978483</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Extra Credit HW">
+      <created>1557426858789</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557426858790</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 19m 30s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_efficientEncode - 2019.05.09 at 15h 10m 34s.xml">
+      <configuration name="HuffmanTreeTest.efficientEncode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 20m 29s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_encode - 2019.05.09 at 15h 11m 15s.xml">
+      <configuration name="HuffmanTreeTest.encode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 22m 01s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 11m 32s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 22m 20s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 12m 09s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 24m 09s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 12m 52s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_find - 2019.04.22 at 17h 26m 31s.xml">
-      <configuration name="TreapTest.find" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 13m 59s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_find - 2019.04.22 at 17h 27m 31s.xml">
-      <configuration name="TreapTest.find" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 14m 38s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_delete - 2019.04.22 at 17h 28m 28s.xml">
-      <configuration name="TreapTest.delete" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_decode - 2019.05.09 at 15h 15m 16s.xml">
+      <configuration name="HuffmanTreeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 29m 03s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_encode - 2019.05.09 at 15h 15m 24s.xml">
+      <configuration name="HuffmanTreeTest.encode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreapTest_add - 2019.04.22 at 17h 29m 58s.xml">
-      <configuration name="TreapTest.add" configurationId="JUnit" />
+    <history-entry file="HuffmanTreeTest_encode - 2019.05.09 at 15h 16m 05s.xml">
+      <configuration name="HuffmanTreeTest.encode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201112000" />
+    <option name="totallyTimeSpent" value="203718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1728" height="1117" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13053893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13053893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +518,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946108" weight="0.20368364" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946108" visible="true" weight="0.20283976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,7 +582,8 @@
     <MESSAGE value="4/10/2019" />
     <MESSAGE value="Recitation 4/12/2019" />
     <MESSAGE value="Finished HW5 - Treaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished HW5 - Treaps" />
+    <MESSAGE value="Extra Credit HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extra Credit HW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,13 +598,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Mar4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StackSLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -943,8 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW5/src/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="333" column="28" selection-start-line="333" selection-start-column="28" selection-end-line="333" selection-end-column="28" />
+        <state relative-caret-position="171">
+          <caret line="295" column="48" lean-forward="true" selection-start-line="295" selection-start-column="48" selection-end-line="295" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
@@ -956,6 +971,13 @@
             <element signature="e#2743#2744#0" expanded="true" />
             <element signature="e#2776#2777#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW5/src/HuffmanTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
