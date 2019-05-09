@@ -283,9 +283,9 @@ public class HuffmanTree {
 			checker = sb.toString();
 			encodeHelper(root, "", c, sb);
 
-//			if((sb.toString().equals(checker))) {
-//				throw new IllegalArgumentException();
-//			}
+			if((sb.toString().equals(checker))) {
+				throw new IllegalArgumentException();
+			}
 		}
 		return stringToBits(sb.toString());
 	}
